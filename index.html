@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <title>Binding Test</title>
+</head>
+
+<body>
+    <h1> Welcome to the binding page!</h1>
+
+    <div>
+        <label for="firstName">My first name:
+            <input id="firstName" name="firstName" type="text">
+        </label>
+
+        <label for="lastName">My last name:
+            <input id="lastName" name="lastName" type="text">
+        </label>
+    </div>
+
+    <div id="nameHere">Your name id:
+        <span class="display" id="firstNameView"></span> 
+        <span class="display" id="lastNameView"></span> 
+    </div>
+
+</body>
+<script src="binding.js"></script>
+
+</html>
